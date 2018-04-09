@@ -1,0 +1,11 @@
+# The service name, this will be part of our Prisma API URL.
+service: hackernews-clone-server
+
+# The deployment stage, this will also be part of our Prima API URL.
+stage: dev
+
+# File that holds the datamodel.
+datamodel: datamodel.graphql
+
+# The secret for JWT authentication.
+secret: YourPrismaSecret

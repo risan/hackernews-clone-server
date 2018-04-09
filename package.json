@@ -1,0 +1,52 @@
+{
+  "name": "hackernews-clone-server",
+  "description": "A GraphQL server for Hacker News clone",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://talented-prosecution.glitch.me",
+  "author": {
+    "name": "Risan Bagja Pradana",
+    "email": "risanbagja@gmail.com",
+    "url": "https://risan.io"
+  },
+  "main": "src/index.js",
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risan/hackernews-clone-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/risan/hackernews-clone-server/issues"
+  },
+  "keywords": [
+    "graphql",
+    "graphql-server",
+    "prisma",
+    "hackernews"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "playground": "graphql playground",
+    "prisma-deploy": "prisma deploy",
+    "lint": "eslint *.js src",
+    "lint-fix": "eslint *.js src --fix"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^5.0.1",
+    "graphql-yoga": "^1.8.2",
+    "jsonwebtoken": "^8.2.1",
+    "prisma-binding": "^1.5.16",
+    "uniqid": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1"
+  }
+}
